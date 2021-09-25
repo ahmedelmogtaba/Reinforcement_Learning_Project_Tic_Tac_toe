@@ -26,5 +26,9 @@ Monte-Carlo Tree search is made up of four distinct operations:
 
 # DQN
 
+1. Initialize your Main and Target neural networks
+2. Choose an action using the Epsilon-Greedy Exploration Strategy
+3. Update your network weights using the Bellman Equation
+
 <img width="505" alt="DQN data_flow" src="https://user-images.githubusercontent.com/45710249/134753782-5f256502-9e6d-4b0c-8ea5-f3d3842206ab.png">
 
