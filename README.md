@@ -24,5 +24,23 @@ Monte-Carlo Tree search is made up of four distinct operations:
 
 ![monti-carlo-flow-chart](https://user-images.githubusercontent.com/45710249/134753609-f9befd92-5ab1-479a-a15b-16c43984f9b8.jpeg)
 
+# DQN
+- Initialize replay memory capacity
+- Initialize the network with random weights
+- Clone the policy network, and call it the target network
+- For each episode:
+(a) Initialize the starting state
+(b) For each time step:
+i. Select an action: via exploration or exploitation
+ii. Execute selected action in a emulator
+iii. Observe reward and next state
+iv. Store experience in replay memory Sample random batch from replay memory
+v. Preprocess states from batch
+vi. Pass batch of preprocessed states to policy network
+vii. Calculate loss between output Q values and target Q values:
+• Require a pass to the target network for the next state
+viii. Gradient descent updates weights in the policy network to minimize loss:
+• After x time steps, weights in the target network are updated to the weights in
+the policy network.
 
 
