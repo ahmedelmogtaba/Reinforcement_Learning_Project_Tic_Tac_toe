@@ -32,3 +32,5 @@ Monte-Carlo Tree search is made up of four distinct operations:
 
 <img width="505" alt="DQN data_flow" src="https://user-images.githubusercontent.com/45710249/134753782-5f256502-9e6d-4b0c-8ea5-f3d3842206ab.png">
 
+<img width="600" alt="barchart" src="https://user-images.githubusercontent.com/37993690/134817130-286b2123-8f52-4916-a8c6-e4dfacdcf7cb.png">
+
